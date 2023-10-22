@@ -1,0 +1,32 @@
+/* default styles for home page */
+
+.app {
+  display: flex;
+  justify-content: center;
+
+  width: 100%;
+  height: 100vh;
+}
+
+.main {
+  width: 1400px;
+  max-width: 100%;
+  padding: 0 20px;
+}
+
+.modal-btn {
+  background-color: #c44601;
+  color: #ffffff;
+  font-size: 1.8rem;
+  padding: 10px 15px;
+  border: 0;
+  border-radius: 3px;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+  background-color: #faaf90;
+  color: #1f1f1f;
+}
